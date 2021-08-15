@@ -1,0 +1,965 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Baylys v1.0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-28 13:28+0000\n"
+"PO-Revision-Date: 2019-12-28 13:31+0000\n"
+"Last-Translator: admin <marc@jandt.net>\n"
+"Language-Team: Deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"Language: de_DE\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.2.5"
+
+#: content-gallery.php:17 content-single.php:17 content-status.php:15
+#: content-chat.php:17 content.php:17 content-aside.php:18 content-audio.php:17
+#: content-video.php:17 content-quote.php:15 content-link.php:15
+#: content-image.php:17 image.php:33
+#, php-format
+msgid "% comments"
+msgstr "% Kommentare"
+
+#. translators: 1: date, 2: time
+#: functions.php:373
+#, php-format
+msgid "%1$s &#64; %2$s"
+msgstr "%1$s &#64; %2$s"
+
+#: functions.php:369
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: inc/theme-options.php:138
+#, php-format
+msgid "%s Theme Options"
+msgstr "%s Theme Optionen"
+
+#: functions.php:476
+msgid "&laquo; Older Posts"
+msgstr "&laquo; Ältere Artikel"
+
+#: image.php:85
+msgid "&laquo; Previous Image"
+msgstr "&laquo; Vorheriges Bild"
+
+#: single.php:25
+msgid "&laquo; Previous Post"
+msgstr "&laquo; Vorheriger Artikel"
+
+#: comments.php:48
+msgid "&larr;  Older Comments"
+msgstr "&larr;  Ältere Kommentare"
+
+#: inc/theme-options.php:272
+msgid ". Now copy the image file URL and insert the URL here."
+msgstr " hoch. Dann kopiere die Bild-URL und füge sie hier ein."
+
+#: inc/theme-options.php:215
+msgid ". Then copy your logo image file URL and insert the URL here."
+msgstr ". Dann kopiere deine Logobild-URL und trage die URL hier ein."
+
+#: content-gallery.php:17 content-single.php:17 content-status.php:15
+#: content-chat.php:17 content.php:17 content-aside.php:18 content-audio.php:17
+#: content-video.php:17 content-quote.php:15 content-link.php:15
+#: content-image.php:17 image.php:33
+msgid "0 comments"
+msgstr "0 Kommentare"
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: content-gallery.php:17 content-single.php:17 content-status.php:15
+#: comments.php:29 content-chat.php:17 content.php:17 content-aside.php:18
+#: content-audio.php:17 content-video.php:17 content-quote.php:15
+#: content-link.php:15 content-image.php:17 image.php:33
+msgid "1 comment"
+msgid_plural "%1$s comments"
+msgstr[0] "1 Kommentar"
+msgstr[1] "%1$s Kommentare"
+
+#: inc/widgets.php:563
+msgid "500px URL:"
+msgstr "500px URL:"
+
+#: image.php:22
+#, php-format
+msgid ""
+"<li time class=\"entry-date\">%2$s</li> at <a href=\"%3$s\" title=\"Link to "
+"full-size image\">%4$s &times; %5$s px</a> in <a href=\"%6$s\" "
+"title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr ""
+"<li time class=\"entry-date\">%2$s</li> at <a href=\"%3$s\" title=\"Link to "
+"full-size image\">%4$s &times; %5$s px</a> in <a href=\"%6$s\" "
+"title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: functions.php:397
+msgid "<span>Pingback:</span>"
+msgstr "<span>Pingback:</span>"
+
+#: inc/widgets.php:176
+msgid "About Text:"
+msgstr "About Text:"
+
+#: inc/widgets.php:117
+msgid "About widget with picture and intro text"
+msgstr "About Widget mit Bild und Introtext"
+
+#: archive.php:27
+#, php-format
+msgid "All Posts by %s"
+msgstr "Alle Artikel von %s"
+
+#. If there are characters in your language that are not supported by Amiri, translate this to 'off'. Do not translate into your own language.
+#: functions.php:203
+msgctxt "Amiri font: on or off"
+msgid "on"
+msgstr ""
+
+#: 404.php:20
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+"Entschuldigung, aber die Seite konnte leider nicht gefunden werden. "
+"Vielleicht findest du ein Ergebnis über die Suchfunktion."
+
+#: archive.php:40
+msgid "Archives"
+msgstr "Archiv"
+
+#. Name of the theme
+msgid "Baylys"
+msgstr ""
+
+#: inc/widgets.php:115
+msgid "Baylys About"
+msgstr "Baylys About"
+
+#: inc/widgets.php:193
+msgid "Baylys Featured Video"
+msgstr "Baylys Featured Video"
+
+#: inc/widgets.php:16
+msgid "Baylys Flickr"
+msgstr "Baylys Flickr"
+
+#: inc/widgets.php:248
+msgid "Baylys Social Links"
+msgstr "Baylys Social Links"
+
+#: inc/widgets.php:593
+msgid "Behance Network URL:"
+msgstr "Behance Network URL:"
+
+#: functions.php:79
+msgid "black"
+msgstr "schwarz"
+
+#: functions.php:174
+msgid "Boats"
+msgstr "Boote"
+
+#: functions.php:184
+msgid "Cactus"
+msgstr "Kaktus"
+
+#: inc/theme-options.php:305
+msgid "Check this box to also include the share buttons on pages."
+msgstr ""
+"Wähle diese Option, um die Teilen-Buttons auch auf deinen Seiten anzuzeigen."
+
+#: inc/theme-options.php:287
+msgid ""
+"Check this box to include share buttons (for Twitter, Facebook, Google+) on "
+"your blogs front page and on single post pages."
+msgstr ""
+"Wähle diese Option, um die Share-Buttons (für Twitter, Google+, Facebook) "
+"auf der Blog-Startseite, sowie auf Artikel-Einzelseiten anzuzeigen."
+
+#: inc/theme-options.php:296
+msgid ""
+"Check this box to include the share post buttons <strong>only</strong> on "
+"single posts (below the post content)."
+msgstr ""
+"Wähle diese Option, um die Teilen-Buttons <strong>nur</strong> in Einzel-"
+"Artikeln (unterhalb des Artikel-Inhalts) anzuzeigen."
+
+#: inc/theme-options.php:320
+msgid ""
+"Check this box to inlcude the Responsive Slider WordPress-Plugin below the "
+"blog title in the header section of your front page(this can either be your "
+"blog or a static page, see Settings/Reading)."
+msgstr ""
+"Mache ein Häkchen, um den Slider des Responsive Slider WordPress-Plugins "
+"unterhalb des Blog-Titels im Header deiner Startseite anzuzeigen (die "
+"Startseite kann entweder dein Blog oder eine statische Seite sein, siehe "
+"Einstellungen/Lesen)."
+
+#: inc/theme-options.php:224
+msgid ""
+"Check this box to show automatic post excerpts. With this option you will "
+"not need to add the more tag in posts."
+msgstr ""
+"Wähle diese Option, um automatische Artikel-Auszüge (Excerpts) anzuzeigen. "
+"Mit dieser Option benötigst du keinen more-link in deinen Artikeln."
+
+#: inc/widgets.php:89
+msgid "Choose user or group:"
+msgstr "Wähle Person oder Gruppe:"
+
+#: inc/theme-options.php:178
+#, php-format
+msgid "Choose your custom footer background color, the default color is: %s."
+msgstr ""
+"Wähle deine eigene Footer-Hintergrundfarbe, die Standard-Farbe ist: %s."
+
+#: inc/theme-options.php:156
+#, php-format
+msgid ""
+"Choose your custom link color, the default link color is: %s. Do not forget "
+"to include the # before the color value."
+msgstr ""
+"Wähle deine Linkfarbe, die Standard-Linkfarbe ist %s. Vergiss nicht, # vor "
+"deinen Farbwert zu schreiben."
+
+#: inc/theme-options.php:167
+#, php-format
+msgid ""
+"Choose your custom link hover color, the default link hover color is: %s."
+msgstr ""
+"Wähle deine eigene Link-Hover Farbe, die Standard Link-Hover Farbe ist: %s."
+
+#: inc/theme-options.php:244 inc/theme-options.php:246
+msgid "Choose your Portfolio Category"
+msgstr "Wähle deine Portfolio Kategorie"
+
+#: inc/theme-options.php:272
+msgid ""
+"Create a <strong>128x128px png</strong> image for your webclip icon. Upload "
+"your image using the "
+msgstr ""
+"Erstelle ein <strong>128x128px png</strong> Bild für dein Apple Webclip-Icon."
+" Lade das Bild über die "
+
+#: inc/theme-options.php:263
+msgid ""
+"Create a <strong>16x16px</strong> image and generate a .ico favicon using a "
+"favicon online generator. Now upload your favicon to your themes folder (via "
+"FTP) and enter your Favicon URL here (the URL path should be similar to: "
+"yourdomain.com/wp-content/themes/baylys/favicon.ico)."
+msgstr ""
+
+#: inc/theme-options.php:268 inc/theme-options.php:270
+msgid "Custom Apple Touch Icon"
+msgstr "Eigenes Apple Touch Icon"
+
+#: inc/theme-options.php:149
+msgid "Custom Colors"
+msgstr "Eigene Farben"
+
+#: inc/theme-options.php:259 inc/theme-options.php:261
+msgid "Custom Favicon"
+msgstr "Eigenes Favicon"
+
+#: inc/theme-options.php:172 inc/theme-options.php:174
+msgid "Custom Footer Background Color"
+msgstr "Eigene Footer-Hintergrundfarbe"
+
+#: inc/theme-options.php:229
+msgid "Custom Footer Text"
+msgstr "Individueller Footertext"
+
+#: inc/theme-options.php:231
+msgid "Custom Footer text"
+msgstr "Footer Text anpassen"
+
+#: inc/theme-options.php:150
+msgid "Custom Link Color"
+msgstr "Eigene Linkfarbe"
+
+#: inc/theme-options.php:161 inc/theme-options.php:163
+msgid "Custom Link Hover Color"
+msgstr "Eigene Link-Hover Farbe"
+
+#: inc/theme-options.php:211
+msgid "Custom Logo"
+msgstr "Eigenes Logobild"
+
+#: inc/theme-options.php:213
+msgid "Custom Logo image"
+msgstr "Eigenes Logobild"
+
+#: inc/theme-options.php:233
+msgid "Customize the footer credit text. Standard HTML is allowed."
+msgstr "Trage deinen eigenen Footer-Text ein. Standard HTML-Code ist möglich."
+
+#: archive.php:31
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archiv von: %s"
+
+#: functions.php:94
+msgid "dark grey"
+msgstr "dunkelgrau"
+
+#: inc/widgets.php:598
+msgid "deviantART URL:"
+msgstr "deviantART URL:"
+
+#: inc/widgets.php:578
+msgid "Dribbble URL:"
+msgstr "Dribbble URL:"
+
+#: functions.php:377 functions.php:398 content-gallery.php:18
+#: content-single.php:18 content-status.php:16 content-chat.php:18
+#: content.php:18 content-aside.php:19 content-audio.php:18
+#: content-video.php:18 content-quote.php:16 content-link.php:16
+#: content-image.php:18 image.php:34
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#. Author of the theme
+msgid "Elmastudio"
+msgstr ""
+
+#: inc/widgets.php:538
+msgid "Facebook URL:"
+msgstr "Facebook URL:"
+
+#: inc/theme-options.php:257
+msgid "Favicon and Apple Touch Icon"
+msgstr "Favicon und Apple Touch Icon"
+
+#: inc/widgets.php:583
+msgid "Ffffound URL:"
+msgstr "Ffffound URL:"
+
+#: inc/widgets.php:65
+msgid "Flickr ID:"
+msgstr ""
+
+#: inc/widgets.php:70
+msgid "Flickr Profile Link Text:"
+msgstr "Flickr-Profil Link-Text:"
+
+#: inc/widgets.php:75
+msgid "Flickr Profile URL:"
+msgstr "Flickr-Profil URL:"
+
+#: inc/widgets.php:548
+msgid "Flickr URL:"
+msgstr "Flickr URL:"
+
+#: functions.php:422
+msgid "Footer Column 1"
+msgstr "Footer-Spalte 1"
+
+#: functions.php:432
+msgid "Footer Column 2"
+msgstr "Footer-Spalte 2"
+
+#: functions.php:442
+msgid "Footer Column 3"
+msgstr "Footer-Spalte 3"
+
+#: functions.php:452
+msgid "Footer Column 4"
+msgstr "Footer-Spalte 4"
+
+#: functions.php:123
+msgid "Footer Navigation (no sub menus supported)"
+msgstr "Footer Navigation (es werden keine Untermenüs unterstützt)"
+
+#: inc/widgets.php:628
+msgid "Foursquare URL:"
+msgstr "Foursquare URL:"
+
+#. Name of the template
+msgid "Full Width"
+msgstr "volle Breite"
+
+#: inc/widgets.php:633
+msgid "GitHub URL:"
+msgstr "GitHub URL:"
+
+#: inc/widgets.php:543
+msgid "Google+ URL:"
+msgstr "Google+ URL:"
+
+#: functions.php:99
+msgid "grey"
+msgstr "grau"
+
+#: inc/widgets.php:618
+msgid "Grooveshark URL:"
+msgstr "Grooveshark URL:"
+
+#: inc/widgets.php:92
+msgid "Group"
+msgstr "Gruppe"
+
+#: footer.php:34
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.elmastudio.de/en/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.elmastudio.de/wordpress-themes/baylys/"
+msgstr ""
+
+#: inc/widgets.php:171
+msgid "Image Height (only value, no px):"
+msgstr "Bildhöhe (nur Wert, nicht px):"
+
+#: inc/widgets.php:161
+msgid "Image URL:"
+msgstr "Bild URL:"
+
+#: inc/widgets.php:166
+msgid "Image Width (only value, no px):"
+msgstr "Bildbreite (nur Wert, nicht px):"
+
+#: inc/theme-options.php:316 inc/theme-options.php:318
+msgid "Include Responsive Slider"
+msgstr "Responsive Slider integrieren"
+
+#: inc/widgets.php:553
+msgid "Instagram URL:"
+msgstr "Instagram URL:"
+
+#: archive.php:82
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Leider kann kein Eintrag zu diesem Suchbegriff gefunden werden. Vielleicht "
+"ist die Suche mit einem alternativen Schlagwort erfolgreich."
+
+#: functions.php:61
+msgid "L"
+msgstr ""
+
+#: functions.php:60
+msgid "large"
+msgstr "groß"
+
+#: functions.php:66
+msgid "larger"
+msgstr "größer"
+
+#: inc/widgets.php:613
+msgid "Last.fm URL:"
+msgstr "Last.fm URL:"
+
+#: inc/widgets.php:98
+msgid "Latest"
+msgstr "Neuste"
+
+#: inc/theme-options.php:185
+msgid "Layout Options"
+msgstr "Layout-Optionen"
+
+#: functions.php:89
+msgid "light grey"
+msgstr "hellgrau"
+
+#: inc/theme-options.php:152
+msgid "Link Color"
+msgstr "Linkfarbe"
+
+#: inc/widgets.php:250
+msgid "Link to your social profile sites"
+msgstr "Linke zu deinen sozialen Profilen"
+
+#: inc/widgets.php:638
+msgid "Linkedin URL:"
+msgstr "Linkedin URL:"
+
+#: inc/theme-options.php:210
+msgid "Logo, Post Excerpts and Footer Text"
+msgstr "Logo, Artikel-Exzerpte und Footer-Text"
+
+#: functions.php:55
+msgid "M"
+msgstr ""
+
+#: functions.php:412
+msgid "Main Sidebar"
+msgstr "Haupt-Sidebar"
+
+#: header.php:50
+msgid "Menu"
+msgstr "Menü"
+
+#: archive.php:34
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archiv des Monats: %s"
+
+#: comments.php:49
+msgid "Newer Comments  &rarr;"
+msgstr "Neuere Kommentare  &rarr;"
+
+#: functions.php:477
+msgid "Newer Posts &raquo;"
+msgstr "Neuere Artikel &raquo;"
+
+#: image.php:86
+msgid "Next Image &raquo;"
+msgstr "Nächstes Bild &raquo;"
+
+#: single.php:24
+msgid "Next Post &raquo;"
+msgstr "Nächster Artikel &raquo;"
+
+#: 404.php:16
+msgid "Not Found"
+msgstr "Nichts gefunden"
+
+#: archive.php:78 search.php:33
+msgid "Nothing Found"
+msgstr "Keine Einträge gefunden"
+
+#: inc/widgets.php:80
+msgid "Number of photos:"
+msgstr "Anzahl der Bilder:"
+
+#: inc/theme-options.php:90
+msgid "One-column"
+msgstr "einspaltig"
+
+#: inc/widgets.php:668
+msgid "Open all links in a new browser tab"
+msgstr "Öffne alle Links in einem neuen Browser-Tab"
+
+#: content-single.php:29 content.php:43
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: content-gallery.php:13 content-chat.php:13 content-portfolio.php:17
+#: content.php:13 content-aside.php:13 content-audio.php:13
+#: content-video.php:13 content-image.php:13
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink zu %s"
+
+#: inc/widgets.php:558
+msgid "Picasa URL:"
+msgstr "Picasa URL:"
+
+#: inc/widgets.php:588
+msgid "Pinterest URL:"
+msgstr "Pinterest URL:"
+
+#. Name of the template
+msgid "Portfolio"
+msgstr ""
+
+#: inc/theme-options.php:242
+msgid "Portfolio Category"
+msgstr "Portfolio Kategorie"
+
+#: inc/theme-options.php:220 inc/theme-options.php:222
+msgid "Post Excerpts"
+msgstr "Artikel-Exzerpte"
+
+#: content-single.php:53
+#, php-format
+msgid "Posted by %s"
+msgstr "Veröffentlicht von %s"
+
+#: content-single.php:34
+msgid "Posted in:"
+msgstr "Veröffentlicht in:"
+
+#: archive.php:20
+#, php-format
+msgid "Posts in Category &lsquo;%s&rsquo;"
+msgstr "Artikel in der Kategorie &lsquo;%s&rsquo;"
+
+#: archive.php:23
+#, php-format
+msgid "Posts Tagged &lsquo;%s&rsquo;"
+msgstr "Artikel mit dem Schlagwort &lsquo;%s&rsquo;"
+
+#: functions.php:122
+msgid "Primary Navigation"
+msgstr "Haupt-Navigation"
+
+#: footer.php:34
+msgid "Proudly powered by"
+msgstr "Proudly powered by"
+
+#: inc/widgets.php:99
+msgid "Random"
+msgstr "Zufällige"
+
+#: functions.php:317 content-gallery.php:24 content-status.php:21
+#: content-chat.php:24 content.php:40 content-aside.php:25 content-audio.php:24
+#: content-video.php:24 content-quote.php:21 content-link.php:21
+#: content-image.php:23
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: functions.php:54
+msgid "regular"
+msgstr "normal"
+
+#: functions.php:368
+msgid "Reply"
+msgstr "Antworten"
+
+#: inc/theme-options.php:314
+msgid "Responsive Slider"
+msgstr "Responsive Slider"
+
+#: inc/widgets.php:663
+msgid "RSS for Comments URL:"
+msgstr "RSS der Kommentare URL:"
+
+#: inc/widgets.php:658
+msgid "RSS-Feed URL:"
+msgstr "RSS-Feed URL:"
+
+#: functions.php:49
+msgid "S"
+msgstr ""
+
+#: functions.php:179
+msgid "Sand"
+msgstr "Sand"
+
+#: searchform.php:11
+msgid "Search"
+msgstr "Suche"
+
+#: searchform.php:10
+msgid "Search ..."
+msgstr "Suche..."
+
+#: search.php:17
+#, php-format
+msgid "Search Results for &lsquo;%s&rsquo;"
+msgstr "Suchergebnisse für &lsquo;%s&rsquo;"
+
+#: inc/theme-options.php:281
+msgid "Share Buttons"
+msgstr "Teilen Buttons"
+
+#: inc/theme-options.php:301 inc/theme-options.php:303
+msgid "Share option for pages"
+msgstr "Teilen-Buttons für Seiten"
+
+#: inc/theme-options.php:283 inc/theme-options.php:285
+msgid "Share option for posts"
+msgstr "Teilen-Buttons für Artikel"
+
+#: inc/theme-options.php:292 inc/theme-options.php:294
+msgid "Share option on single posts only"
+msgstr "Teilen-Buttons nur in Einzel-Artikeln"
+
+#: inc/widgets.php:195
+msgid "Show a featured video"
+msgstr "Zeige ein hervorgehobenes Video"
+
+#: inc/widgets.php:96
+msgid "Show latest or random pictures:"
+msgstr "Zeige neuste oder zufällige Bilder:"
+
+#: inc/widgets.php:18
+msgid "Show your Flickr preview images"
+msgstr "Zeige eine Vorschau deiner Flickr-Bilder"
+
+#: inc/theme-options.php:85
+msgid "Sidebar left"
+msgstr "Sidebar links"
+
+#: inc/theme-options.php:186 inc/theme-options.php:188
+msgid "Sidebar Placement"
+msgstr "Sidebar-Platzierung"
+
+#: inc/theme-options.php:80
+msgid "Sidebar right"
+msgstr "Sidebar rechts"
+
+#: inc/widgets.php:608
+msgid "Slideshare URL:"
+msgstr "Slideshare URL:"
+
+#: functions.php:48
+msgid "small"
+msgstr "klein"
+
+#: search.php:36
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Entschuldigung, leider wurde zu deiner Suchanfrage kein Eintrag gefunden. "
+"Bitte versuche es noch einmal mit anderen Schlagwörtern."
+
+#: inc/widgets.php:623
+msgid "Soundcloud URL:"
+msgstr "Soundcloud URL:"
+
+#: inc/widgets.php:603
+msgid "Squidoo URL:"
+msgstr "Squidoo URL:"
+
+#: functions.php:169
+msgid "Summer"
+msgstr "Sommer"
+
+#: content-single.php:37
+msgid "Tagged:"
+msgstr "Schlagwörter:"
+
+#. Description of the theme
+msgid ""
+"The Baylys WordPress theme is a minimal, responsive WordPress theme by "
+"Elmastudio that can be used as a blog and/or portfolio theme. Features "
+"include a theme options page, left, right or no sidebar layout options, a "
+"header image or slider option, portfolio, fullwidth and no sidebar page "
+"template and many more."
+msgstr ""
+
+#: inc/theme-options.php:63 inc/theme-options.php:64
+msgid "Theme Options"
+msgstr "Theme Optionen"
+
+#: footer.php:35
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "Theme: %1$s von %2$s"
+
+#: comments.php:12
+#, php-format
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Dieser Artikel ist Passwort geschützt. Trage das Passwort ein, um die "
+"Kommentare zu sehen."
+
+#: inc/widgets.php:60 inc/widgets.php:156 inc/widgets.php:226
+#: inc/widgets.php:528
+msgid "Title:"
+msgstr "Titel:"
+
+#: footer.php:42
+msgid "Top"
+msgstr "Top"
+
+#: inc/widgets.php:653
+msgid "Tumblr URL:"
+msgstr "Tumblr URL:"
+
+#: share.php:12
+msgid "Tweet"
+msgstr "Twitter"
+
+#: inc/widgets.php:533
+msgid "Twitter URL:"
+msgstr "Twitter URL:"
+
+#: inc/theme-options.php:248
+msgid ""
+"Type in the category slug of the category you want to use as your portfolio "
+"category (You will find the slug in Posts/Categories)."
+msgstr ""
+"Trage hier die Portfolio Titelform-Bezeichnung (Slug) der Kategorie die, die "
+"du für deine Portfolio Kategorie nutzen möchtest (du findest die Titelform "
+"in Artikel/Kategorien)."
+
+#: inc/theme-options.php:215
+msgid "Upload your own logo image using the "
+msgstr "Lade dein eigenes Logo-Bild hoch "
+
+#: inc/widgets.php:91
+msgid "User"
+msgstr "Person"
+
+#: inc/widgets.php:231
+msgid "Video embed code:"
+msgstr "Video-Einbettungscode:"
+
+#: inc/widgets.php:573
+msgid "Vimeo URL:"
+msgstr "Vimeo URL:"
+
+#: functions.php:84
+msgid "white"
+msgstr "weiß"
+
+#: functions.php:424
+msgid ""
+"Widgets will appear in the first column of the optional 4-column footer "
+"widget area."
+msgstr ""
+"Widgets werden in der ersten Spalte des optionalen 4-spaltigen Footer-"
+"Widgetbereichs angezeigt."
+
+#: functions.php:454
+msgid ""
+"Widgets will appear in the fourth column of the optional 4-column footer "
+"widget area."
+msgstr ""
+"Widgets werden in der vierten Spalte des optionalen 4-spaltigen Footer-"
+"Widgetbereichs angezeigt."
+
+#: functions.php:414
+msgid "Widgets will appear in the main sidebar on posts and pages."
+msgstr ""
+"Widgets werden in der Haupt-Sidebar auf Artikeln und Seiten erscheinen."
+
+#: functions.php:434
+msgid ""
+"Widgets will appear in the second column of the optional 4-column footer "
+"widget area."
+msgstr ""
+"Widgets werden in der zweiten Spalte des optionalen 4-spaltigen Footer-"
+"Widgetbereichs angezeigt."
+
+#: functions.php:444
+msgid ""
+"Widgets will appear in the third column of the optional 4-column footer "
+"widget area."
+msgstr ""
+"Widgets werden in der dritten Spalte des optionalen 4-spaltigen Footer-"
+"Widgetbereichs angezeigt."
+
+#. Name of the template
+msgid "Without Sidebar"
+msgstr "ohne Sidebar"
+
+#: footer.php:34
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/theme-options.php:215 inc/theme-options.php:272
+msgid "WordPress Media Uploader"
+msgstr "WordPress Mediathek"
+
+#: inc/widgets.php:648
+msgid "WordPress URL:"
+msgstr "WordPress URL:"
+
+#: comments.php:32
+msgid "Write a comment"
+msgstr "Schreibe einen Kommentar"
+
+#: inc/widgets.php:643
+msgid "Xing URL:"
+msgstr "Xing URL:"
+
+#: functions.php:67
+msgid "XL"
+msgstr ""
+
+#: archive.php:37
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archiv des Jahres: %s"
+
+#: functions.php:383
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar befindet sich in Moderation."
+
+#: inc/widgets.php:568
+msgid "YouTube URL:"
+msgstr "YouTube URL:"
+
+msgid ""
+"<strong>%s</strong> supports automatic updates using WordPress' update "
+"mechanism. To use this feature you need to activate the theme using your "
+"Product Key, which can be found in your Elmastudio account dashboard. The "
+"theme stays fully functional without activation and still can be updated "
+"manually. %sClick here%s to activate <strong>%s</strong>."
+msgstr ""
+"<strong>%s</strong> unterstützt automatische Updates über den "
+"Aktualisierungsmechanismus von WordPress. Dazu muss das Theme mit einem "
+"Produktschlüssel aktiviert werden, den du in deinem Elmastudio-Konto findest."
+" Das Theme funktioniert uneingeschränkt auch ohne diese Aktivierung und "
+"lässt sich jederzeit manuell aktualisieren. %sKlicke hier%s um <strong>"
+"%s</strong> zu aktivieren."
+
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr ""
+"<strong>Achtung!</strong> Du blockierst externe Anfragen, so dass keine %s-"
+"Updates geladen werden können. Bitte füge %s zu deinen %s hinzu."
+
+msgid " Activation"
+msgstr "-Aktivierung"
+
+msgid " Product Key Activation"
+msgstr "-Produktschlüssel-Aktivierung"
+
+msgid "Product Key Activation"
+msgstr "Produktschlüssel-Aktivierung"
+
+msgid "Product Key Deactivation"
+msgstr "Produktschlüssel-Deaktivierung"
+
+msgid "Product Key"
+msgstr "Produktschlüssel"
+
+msgid "Product ID"
+msgstr "Produkt-ID"
+
+msgid "Product Key Status"
+msgstr "Produktschlüssel-Status"
+
+msgid "Deactivate Product Key"
+msgstr "Deaktiviere Produktschlüssel"
+
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+msgid "Activated"
+msgstr "Aktiviert"
+
+msgid "Deactivated"
+msgstr "Deaktiviert"
+
+msgid ""
+"Connection failed to the Elmastudio server. Try again later. There may be a "
+"problem on your server preventing outgoing requests."
+msgstr ""
+"Die Verbindung zum Elmastudio-Server konnte nicht hergestellt werden. Bitte "
+"versuche es später erneut. Auf deinem Server könnte es ein Problem geben, "
+"welches ausgehende Verbindungen einschränkt."
+
+msgid "Product Key deactivated."
+msgstr "Produktschlüssel deaktiviert."
+
+msgid ""
+"The Product Key could not be deactivated. Use the Product Key Deactivation "
+"tab to manually deactivate the Product Key before activating a new Product "
+"Key."
+msgstr ""
+"Der Produktschlüssel konnte nicht deaktiviert werden. Klicke auf "
+"Produktschlüssel-Deaktivierung und deaktiviere den Produktschlüssel manuell "
+"bevor du den neuen Produktschlüssel aktivierst."
+
+msgid "Deactivates an Product Key so it can be used on another blog."
+msgstr ""
+"Deaktiviert einen Produktschlüssel, so dass dieser auf einer anderen Seite "
+"verwendet werden kann."
+
+msgid "%s activated."
+msgstr "%s aktiviert."
