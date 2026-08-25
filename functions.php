@@ -488,3 +488,14 @@ require get_template_directory() . '/inc/widgets.php';
 /* Add One Click Demo Import code.
 /*-----------------------------------------------------------------------------------*/
 require get_template_directory() . '/inc/demo-installer.php';
+
+/* __php8_option_defaults: never let the theme options be false or miss a key (PHP 8). */
+function baylys_php8_option_defaults( $options = array() ) {
+	$fallback = array_fill_keys( array( 'show-excerpt', 'share-posts', 'share-singleposts', 'portfolio-cat', 'share-pages', 'custom_footertext', 'custom_favicon', 'custom_apple_icon', 'custom_logo', 'use-slider', 'link_color', 'linkhover_color', 'footerbg_color', 'theme_layout' ), '' );
+	if ( function_exists( 'baylys_get_default_theme_options' ) ) {
+		$fallback = array_merge( $fallback, (array) baylys_get_default_theme_options() );
+	}
+	return wp_parse_args( is_array( $options ) ? $options : array(), $fallback );
+}
+add_filter( 'default_option_baylys_theme_options', 'baylys_php8_option_defaults' );
+add_filter( 'option_baylys_theme_options', 'baylys_php8_option_defaults' );

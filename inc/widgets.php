@@ -20,6 +20,7 @@
 	 }
 
 	 function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'id' => '', 'linktext' => '', 'linkurl' => '', 'number' => '', 'type' => '', 'sorting' => '' ) );
 		 extract( $args );
 		 $title = $instance['title'];
 		 $id = $instance['id'];
@@ -47,6 +48,7 @@
 		}
 
 		function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'id' => '', 'linktext' => '', 'linkurl' => '', 'number' => '', 'type' => '', 'sorting' => '' ) );
 		 $title = esc_attr($instance['title']);
 		 $id = esc_attr($instance['id']);
 		 $linktext = esc_attr($instance['linktext']);
@@ -119,6 +121,7 @@
 	 }
 
 	 function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'imageurl' => '', 'imagewidth' => '', 'imageheight' => '', 'abouttext' => '' ) );
 		 extract( $args );
 		 $title = $instance['title'];
 		 $imageurl = $instance['imageurl'];
@@ -145,6 +148,7 @@
 		}
 
 		function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'imageurl' => '', 'imagewidth' => '', 'imageheight' => '', 'abouttext' => '' ) );
 		 $title = esc_attr($instance['title']);
 		 $imageurl = esc_attr($instance['imageurl']);
 		 $imagewidth = esc_attr($instance['imagewidth']);
@@ -197,6 +201,7 @@
 	 }
 
 	 function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'embedcode' => '' ) );
 		 extract( $args );
 		 $title = $instance['title'];
 		 $embedcode = $instance['embedcode'];
@@ -218,6 +223,7 @@
 		}
 
 		function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'embedcode' => '' ) );
 		 $title = esc_attr($instance['title']);
 		 $embedcode = esc_attr($instance['embedcode']);
 		 ?>
@@ -252,6 +258,7 @@
 	 }
 
 	 function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'twitter' => '', 'facebook' => '', 'googleplus' => '', 'flickr' => '', 'instagram' => '', 'picasa' => '', 'fivehundredpx' => '', 'youtube' => '', 'vimeo' => '', 'dribbble' => '', 'ffffound' => '', 'pinterest' => '', 'behance' => '', 'deviantart' => '', 'squidoo' => '', 'slideshare' => '', 'lastfm' => '', 'grooveshark' => '', 'soundcloud' => '', 'foursquare' => '', 'github' => '', 'linkedin' => '', 'xing' => '', 'wordpress' => '', 'tumblr' => '', 'rss' => '', 'rsscomments' => '', 'target' => '' ) );
 		 extract( $args );
 		 $title = $instance['title'];
 		 $twitter = $instance['twitter'];
@@ -492,6 +499,7 @@
 		}
 
 		function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'twitter' => '', 'facebook' => '', 'googleplus' => '', 'flickr' => '', 'instagram' => '', 'picasa' => '', 'fivehundredpx' => '', 'youtube' => '', 'vimeo' => '', 'dribbble' => '', 'ffffound' => '', 'pinterest' => '', 'behance' => '', 'deviantart' => '', 'squidoo' => '', 'slideshare' => '', 'lastfm' => '', 'grooveshark' => '', 'soundcloud' => '', 'foursquare' => '', 'github' => '', 'linkedin' => '', 'xing' => '', 'wordpress' => '', 'tumblr' => '', 'rss' => '', 'rsscomments' => '', 'target' => '' ) );
 		 $title = esc_attr($instance['title']);
 		 $twitter = esc_attr($instance['twitter']);
 		 $facebook = esc_attr($instance['facebook']);
