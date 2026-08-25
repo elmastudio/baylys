@@ -9,6 +9,10 @@ For the detailed theme documentation visit:
 
 Changelog:
 
+Version 1.1.8 (25/08/2026)
+-----------------------------------------------------------------------------------------------------------------------------
+- Fix: PHP 8 compatibility. Theme options and widget settings no longer trigger warnings; attachment pages, related posts and comment display fixed where affected.
+
 Version 1.1.7 (15/08/2021)
 ----------------------------------------------------------------------------------------------------------------
 - Enhance: Delete API manager support.
