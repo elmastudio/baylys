@@ -105,7 +105,6 @@
 	 }
  }
 
- register_widget('baylys_flickr');
 
  /*-----------------------------------------------------------------------------------*/
  /* Include Baylys About Widget
@@ -185,7 +184,6 @@
 	 }
  }
 
- register_widget('baylys_about');
 
  /*-----------------------------------------------------------------------------------*/
  /* Include Baylys Video Widget
@@ -242,7 +240,6 @@
 	 }
  }
 
- register_widget('baylys_video');
 
  /*-----------------------------------------------------------------------------------*/
  /* Including Baylys Social Links Widget
@@ -680,4 +677,16 @@
 	 }
  }
 
- register_widget('baylys_sociallinks');
+
+/**
+ * Registered on widgets_init, which is where WordPress asks for it. At file
+ * scope each widget's constructor translated its own name before init, which
+ * WordPress 6.7 reports on every request.
+ */
+function baylys_register_widgets() {
+	register_widget( 'baylys_flickr' );
+	register_widget( 'baylys_about' );
+	register_widget( 'baylys_video' );
+	register_widget( 'baylys_sociallinks' );
+}
+add_action( 'widgets_init', 'baylys_register_widgets' );

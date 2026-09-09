@@ -7,20 +7,6 @@
  */
 
 /*-----------------------------------------------------------------------------------*/
-/* Theme update feature setup
-/*-----------------------------------------------------------------------------------*/
-
-if ( ! class_exists( 'WC_AM_Client_25' ) ) {
-	require_once( get_template_directory() . '/inc/wc-am-client.php' );
-}
-
-if ( class_exists( 'WC_AM_Client_25' ) ) {
-
-	$wcam_lib = new WC_AM_Client_25( __FILE__, '', wp_get_theme( wp_get_theme()->Template )->Version, 'theme', 'https://www.elmastudio.de/', wp_get_theme( wp_get_theme()->Template )->Name, wp_get_theme( wp_get_theme()->Template )->get( 'TextDomain' ), '31029' );
-
-}
-
-/*-----------------------------------------------------------------------------------*/
 /* Set the content width based on the theme's design and stylesheet.
 /*-----------------------------------------------------------------------------------*/
 

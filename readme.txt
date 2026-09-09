@@ -12,6 +12,11 @@ Install the Git Updater plugin (https://git-updater.com/) and WordPress will off
 
 Changelog:
 
+Version 1.1.9 (09/09/2026)
+-----------------------------------------------------------------------------------------------------------------------------
+- Fix: Sidebars and widgets are now registered on the widgets_init hook. WordPress 6.7 and newer no longer report that the theme loads its translations too early.
+- Remove: The product key activation page (Settings > Baylys Activation) and its update check against the closed Elmastudio shop. Updates come from GitHub via the Git Updater plugin, see above. This also removes a PHP 8 deprecation notice.
+
 Version 1.1.8 (25/08/2026)
 -----------------------------------------------------------------------------------------------------------------------------
 - Fix: PHP 8 compatibility. Theme options and widget settings no longer trigger warnings; attachment pages, related posts and comment display fixed where affected.
